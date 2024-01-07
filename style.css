@@ -1,0 +1,50 @@
+*{
+    margin-top: 0;
+}
+.cow-title{
+    background-image: url('cow.jpg');
+    background-size: cover;
+    background-position: top center;
+    height: 700px;
+}
+.cow-title h1{
+    text-align: center;
+    font-size: 100px;
+    word-spacing: 5px;
+    padding: 20px;
+    color: rgb(0, 39, 72);
+    letter-spacing: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cow-conten{
+    margin: 50px auto;
+    width: 1140px;
+    /* border: 2px solid rgb(16, 133, 235); */
+    box-shadow: 0 0 10px 5px lightskyblue;
+    padding: 50px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+#cow-h{
+    text-align: center;
+    border-bottom: 4px solid blue;
+    padding: 30px;
+    color: rgb(3, 85, 117);
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#lorem{
+    font-size: 50px;
+    color: rgb(3, 85, 117);
+}
+.cow-types{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.cow-types-img img{
+   border-radius: 15px;
+   box-shadow: 0 0 10px 3px blueviolet;
+   
+}
