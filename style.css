@@ -2,7 +2,7 @@
     margin-top: 0;
 }
 .cow-title{
-    background-image: url('/image/cow.jpg');
+    background-image: url('image/cow.jpg');
     background-size: cover;
     background-position: bottom center;
     height: 700px;
@@ -48,4 +48,56 @@
    border-radius: 15px;
    box-shadow: 0 0 10px 3px blueviolet;
    
+}
+.foot-cont {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    gap: 70px;
+    padding: 100px 150px 70px 150px;
+}
+
+.footer-coloum {
+    margin: 20px;
+    width: 50%;
+
+}
+
+.foot-info-cont {
+    font-size: 30px;
+}
+
+.foot-from input,
+textarea {
+    display: block;
+    margin-bottom: 15px;
+    padding: 15px 35px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 3px #757575;
+    width: 100%;
+}
+
+#sub {
+    background-color: aquamarine;
+}
+
+.foot-link li {
+    font-size: 20px;
+    color: #403e3e;
+}
+
+.foot-info-description {
+    font-size: 25px;
+}
+.social-link a{
+    margin-right: 40px;
+}
+.copy {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: aquamarine;
 }
